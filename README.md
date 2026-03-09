@@ -3,6 +3,8 @@
 
 This guide explains how to run **Claude Code** on a mobile device (such as Android using **Termux**) using **OpenRouter** as the API provider.
 
+![download](https://github.com/user-attachments/assets/f377096d-bba0-47b8-af43-cc9bce847133)
+
 ---
 
 # Overview
@@ -109,10 +111,10 @@ meta-llama/llama-3.1-8b-instruct:free
 
 You now have a fully functional Claude Code environment running on your phone using OpenRouter and free models.
 
-This setup is useful for:
+## This setup is useful for:
 
-Coding on mobile
+1. Coding on mobile
 
-AI-assisted development
+2 . AI-assisted development
 
-Terminal-based workflows
+3 . Terminal-based workflows
