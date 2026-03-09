@@ -67,7 +67,7 @@ cat <<EOF >> ~/.bashrc
 export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
 export ANTHROPIC_AUTH_TOKEN="YOUR_API_KEY_HERE"
 export ANTHROPIC_API_KEY=""
-export ANTHROPIC_MODEL="mistralai/mistral-small-3.1-24b-instruct:free"
+export ANTHROPIC_MODEL="openrouter/free"
 EOF
 
 source ~/.bashrc
