@@ -63,10 +63,13 @@ Add the OpenRouter configuration to your shell profile.
 ```
 cat <<EOF >> ~/.bashrc
 
-export ANTHROPIC_BASE_URL="https://openrouter.ai/api/v1"
-export ANTHROPIC_API_KEY="YOUR_OPENROUTER_API_KEY_HERE" 
-export CLAUDE_CODE_MODEL="qwen/qwen-2.5-coder-32b:free"
+# Claude Code + OpenRouter Config
+export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+export ANTHROPIC_AUTH_TOKEN="YOUR_API_KEY_HERE"
+export ANTHROPIC_API_KEY=""
+export ANTHROPIC_MODEL="mistralai/mistral-small-3.1-24b-instruct:free"
 EOF
+
 source ~/.bashrc
 ```
 
