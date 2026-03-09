@@ -63,13 +63,10 @@ Add the OpenRouter configuration to your shell profile.
 ```
 cat <<EOF >> ~/.bashrc
 
-# Claude Code + OpenRouter Config
 export ANTHROPIC_BASE_URL="https://openrouter.ai/api/v1"
 export ANTHROPIC_API_KEY="YOUR_OPENROUTER_API_KEY_HERE" 
-export CLAUDE_CODE_MODEL="qwen/qwen-2.5-coder-32b:free" # you change model
+export CLAUDE_CODE_MODEL="qwen/qwen-2.5-coder-32b:free"
 EOF
-
-# 4. Refresh your terminal
 source ~/.bashrc
 ```
 
